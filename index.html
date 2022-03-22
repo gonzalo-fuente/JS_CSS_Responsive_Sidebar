@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/e5da43bfe7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Responsive Sidebar</title>
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="brand">
+          <i class="fab fa-goodreads icon brand-icon"></i>
+          <div class="text logo-text">
+            <span class="brand-name">gonz4</span>
+            <span class="brand-text">Web designs</span>
+          </div>
+        </div>
+
+        <i class="fas fa-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        
+        <li class="search-box">
+          <i class="fas fa-search icon"></i>
+          <input type="text" placeholder="Search..." />
+        </li>
+
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <i class="fas fa-chart-line icon"></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="fas fa-chart-bar icon"></i>
+                <span class="text nav-text">Revenue</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="fas fa-bell icon"></i>
+                <span class="text nav-text">Notifications</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="fas fa-chart-pie icon"></i>
+                <span class="text nav-text">Analytics</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="fas fa-heart icon"></i>
+                <span class="text nav-text">Likes</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottom-content">
+          <li class="">
+            <a href="#">
+              <i class="fas fa-sign-out-alt icon"></i>
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>
+
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="fas fa-moon icon moon"></i>
+              <i class="fas fa-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark mode</span>
+
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+    </nav>
+
+    <section class="home">
+      <div class="text">Responsive Sidebar</div>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
